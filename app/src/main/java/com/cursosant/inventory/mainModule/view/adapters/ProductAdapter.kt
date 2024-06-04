@@ -13,16 +13,7 @@ import com.cursosant.inventory.R
 import com.cursosant.inventory.databinding.ItemProductBinding
 import com.cursosant.inventory.entities.Product
 
-/****
- * Project: Inventory
- * From: com.cursosant.inventory.mainModule.view.adapters
- * Created by Alain Nicolás Tello on 15/12/21 at 19:41
- * All rights reserved 2021.
- *
- * All my Udemy Courses:
- * https://www.udemy.com/user/alain-nicolas-tello/
- * Web: www.alainnicolastello.com
- ***/
+
 class ProductAdapter(private val listener: OnClickListener) :
     ListAdapter<Product, RecyclerView.ViewHolder>(ProductDiffCallback()){
 

@@ -7,16 +7,7 @@ import com.cursosant.inventory.common.InventoryPreferences
 import com.cursosant.inventory.common.MyDataBase
 import com.cursosant.inventory.entities.Product
 
-/****
- * Project: Inventory
- * From: com.cursosant.inventory.mainModule.model
- * Created by Alain Nicolás Tello on 15/12/21 at 19:36
- * All rights reserved 2021.
- *
- * All my Udemy Courses:
- * https://www.udemy.com/user/alain-nicolas-tello/
- * Web: www.alainnicolastello.com
- ***/
+
 class MainRepository(application: Application) {
     private val myDataBase by lazy { MyDataBase.getInstance() }
     private val preferences = InventoryPreferences.getInstance(application)

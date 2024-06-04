@@ -19,16 +19,7 @@ import com.cursosant.inventory.databinding.FragmentAddProductBinding
 import com.cursosant.inventory.entities.Product
 import kotlin.random.Random
 
-/****
- * Project: Inventory
- * From: com.cursosant.inventory.addModule.view
- * Created by Alain Nicolás Tello on 15/12/21 at 19:31
- * All rights reserved 2021.
- *
- * All my Udemy Courses:
- * https://www.udemy.com/user/alain-nicolas-tello/
- * Web: www.alainnicolastello.com
- ***/
+
 class AddProductFragment : DialogFragment(), DialogInterface.OnShowListener {
     private var _binding: FragmentAddProductBinding? = null
     private val binding get() = _binding!!

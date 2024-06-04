@@ -4,16 +4,7 @@ import android.app.Application
 import android.content.SharedPreferences
 import androidx.preference.PreferenceManager
 
-/****
- * Project: Inventory
- * From: com.cursosant.inventory.common
- * Created by Alain Nicolás Tello on 15/12/21 at 19:24
- * All rights reserved 2021.
- *
- * All my Udemy Courses:
- * https://www.udemy.com/user/alain-nicolas-tello/
- * Web: www.alainnicolastello.com
- ***/
+
 class InventoryPreferences(application: Application) {
     private val preferences: SharedPreferences
 

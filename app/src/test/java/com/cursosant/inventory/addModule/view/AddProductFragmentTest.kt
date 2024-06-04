@@ -13,20 +13,7 @@ import org.junit.Assert.*
 import org.junit.Test
 import org.junit.runner.RunWith
 
-/****
- * Project: Inventory
- * From: com.cursosant.inventory.addModule.view
- * Created by Alain Nicolás Tello on 23/05/23 at 18:29
- * All rights reserved 2023.
- *
- * All my Udemy Courses:
- * https://www.udemy.com/user/alain-nicolas-tello/
- * And Frogames formación:
- * https://cursos.frogamesformacion.com/pages/instructor-alain-nicolas
- *
- * Coupons on my Website:
- * www.alainnicolastello.com
- */
+
 @RunWith(AndroidJUnit4::class)
 class AddProductFragmentTest{
     @Test
